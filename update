@@ -3,5 +3,6 @@ cd ../loconotion
 LOCONOTION_LOCAL_DIST=../sjc.vote/docs docker-compose run loconotion https://www.notion.so/SJC-vote-One-resident-s-guide-to-voting-in-St-John-s-County-elections-e860a3271af3470c9704e792aeaa74e7
 cd -
 mv docs/sjc-vote-one-resident-s-guide-to-voting-in-st-john-s-county-elections/* docs/
+git add .
 git commit -am "Update"
 
