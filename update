@@ -5,4 +5,4 @@ cd -
 mv docs/sjc-vote-one-resident-s-guide-to-voting-in-st-john-s-county-elections/* docs/
 git add .
 git commit -am "Update"
-
+git show --stat
